@@ -26,14 +26,14 @@ Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de progr
 
 ### Screenshot
 
-![Prévia Desktop](./design/desktop-design.jpg)
+![Prévia Desktop](screenshot.png)
 
 ---
 
 ### Links
 
-- URL da solução: *(adicione aqui o link da sua solução no Frontend Mentor)*  
-- URL do site ao vivo: *(adicione aqui o link do site publicado)*
+- URL da solução: _(adicione aqui o link da sua solução no Frontend Mentor)_
+- URL do site ao vivo: _(adicione aqui o link do site publicado)_
 
 ---
 
@@ -78,17 +78,16 @@ Em projetos futuros, pretendo:
 
 ### Recursos úteis
 
-- MDN Web Docs – Referência essencial para HTML e CSS  
-- Frontend Mentor – Plataforma excelente para prática com projetos reais  
-- CSS-Tricks – Conteúdos aprofundados sobre CSS Grid e layout  
+- MDN Web Docs – Referência essencial para HTML e CSS
+- Frontend Mentor – Plataforma excelente para prática com projetos reais
+- CSS-Tricks – Conteúdos aprofundados sobre CSS Grid e layout
 
 ---
 
 ## Autor
 
-- GitHub – https://github.com/Catenga-Gamer  
-- Frontend Mentor – https://www.frontendmentor.io/profile/Catenga-Gamer  
-- Website / Portfólio – *(opcional)*
+- GitHub – https://github.com/lanzincode
+- Frontend Mentor – https://www.frontendmentor.io/profile/lanzincode
 
 ---
 
