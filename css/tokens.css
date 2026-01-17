@@ -1,0 +1,178 @@
+@layer tokens;
+
+@layer tokens {
+  :root {
+    /* =====================================================
+       🧱 PRIMITIVOS — CORES
+       ===================================================== */
+
+    --white: #ffffff;
+    --black: #000000;
+
+    --gray-50: #f9fafb;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9ca3af;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+
+    --indigo-500: #6366f1;
+    --blue-500: #4c6ef5;
+    --green-500: #22c55e;
+    --red-500: #ef4444;
+    --yellow-500: #f59e0b;
+
+    /* =====================================================
+       🎨 SEMÂNTICOS — CORES
+       ===================================================== */
+
+    --color-bg: var(--gray-50);
+    --color-surface: var(--white);
+    --color-text: var(--gray-900);
+    --color-text-muted: var(--gray-500);
+    --color-border: var(--gray-200);
+
+    --color-primary: var(--indigo-500);
+    --color-secondary: var(--blue-500);
+    --color-success: var(--green-500);
+    --color-danger: var(--red-500);
+    --color-warning: var(--yellow-500);
+
+    /* =====================================================
+       🔤 TIPOGRAFIA — FAMÍLIAS
+       ===================================================== */
+
+    --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Helvetica, Arial, sans-serif;
+
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", monospace;
+
+    /* =====================================================
+       🔠 TIPOGRAFIA — TAMANHOS (FLUIDOS)
+       ===================================================== */
+
+    --fs-micro: clamp(1rem, 0.95rem + 0.15vw, 1.1rem);
+    --fs-2xs: clamp(1.1rem, 1rem + 0.15vw, 1.2rem);
+    --fs-xs: clamp(1.2rem, 1.1rem + 0.2vw, 1.4rem);
+    --fs-sm: clamp(1.4rem, 1.3rem + 0.3vw, 1.6rem);
+    --fs-md: clamp(1.6rem, 1.5rem + 0.4vw, 1.8rem);
+    --fs-lg: clamp(1.8rem, 1.7rem + 0.45vw, 2rem);
+    --fs-lead: clamp(2rem, 1.8rem + 0.6vw, 2.4rem);
+    --fs-xl: clamp(2.4rem, 2.1rem + 0.8vw, 3rem);
+    --fs-2xl: clamp(3rem, 2.6rem + 1.2vw, 3.8rem);
+    --fs-3xl: clamp(3.8rem, 3.2rem + 1.6vw, 4.8rem);
+    --fs-4xl: clamp(4.8rem, 4rem + 2vw, 6rem);
+    --fs-display: clamp(6rem, 4.8rem + 3vw, 8rem);
+
+    /* =====================================================
+       🎚️ TIPOGRAFIA — PESOS
+       ===================================================== */
+
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-black: 800;
+
+    /* =====================================================
+       📐 LINE HEIGHT
+       ===================================================== */
+
+    --lh-tight: 1.1;
+    --lh-snug: 1.25;
+    --lh-normal: 1.5;
+    --lh-relaxed: 1.7;
+
+    /* =====================================================
+       🧾 TEXT STYLES — SEMÂNTICOS
+       ===================================================== */
+
+    --text-body-size: var(--fs-md);
+    --text-body-weight: var(--fw-regular);
+    --text-body-line: var(--lh-normal);
+
+    --text-heading-weight: var(--fw-semibold);
+    --text-heading-line: var(--lh-tight);
+
+    --text-muted-color: var(--color-text-muted);
+
+    /* =====================================================
+       📏 ESPAÇAMENTOS (FLUIDOS)
+       ===================================================== */
+
+    --space-3xs: clamp(0.2rem, 0.2rem + 0.1vw, 0.4rem);
+    --space-2xs: clamp(0.4rem, 0.3rem + 0.2vw, 0.6rem);
+    --space-xs: clamp(0.8rem, 0.6rem + 0.3vw, 1rem);
+    --space-sm: clamp(1.2rem, 1rem + 0.4vw, 1.6rem);
+    --space-md: clamp(1.6rem, 1.4rem + 0.6vw, 2.4rem);
+    --space-lg: clamp(2.4rem, 2rem + 0.8vw, 3.2rem);
+    --space-xl: clamp(3.2rem, 2.6rem + 1.2vw, 4.8rem);
+    --space-2xl: clamp(4.8rem, 3.8rem + 2vw, 6.4rem);
+
+    /* =====================================================
+       🧱 LAYOUT
+       ===================================================== */
+
+    --container-max: 120rem;
+    --container-padding: var(--space-lg);
+
+    --section-padding-block: var(--space-2xl);
+    --section-padding-inline: var(--space-lg);
+
+    --flow-space: var(--space-md);
+
+    /* =====================================================
+       ⭕ RADIUS
+       ===================================================== */
+
+    --radius-sm: 0.6rem;
+    --radius-md: 0.8rem;
+    --radius-lg: 1.6rem;
+    --radius-xl: 2.4rem;
+    --radius-full: 9999px;
+
+    /* =====================================================
+       🌫️ SOMBRAS
+       ===================================================== */
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.12);
+
+    /* =====================================================
+       ⏱️ MOTION
+       ===================================================== */
+
+    --ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+    --duration-fast: 150ms;
+    --duration-md: 300ms;
+    --duration-slow: 500ms;
+
+    /* =====================================================
+       🧭 Z-INDEX
+       ===================================================== */
+
+    --z-base: 0;
+    --z-header: 10;
+    --z-dropdown: 20;
+    --z-modal: 30;
+    --z-toast: 40;
+
+    /* =====================================================
+       🧩 TOKENS DE COMPONENTE (BASE)
+       ===================================================== */
+
+    --btn-radius: var(--radius-full);
+    --btn-padding: var(--space-sm) var(--space-lg);
+    --btn-font-size: var(--fs-sm);
+
+    --card-padding: var(--space-lg);
+    --card-radius: var(--radius-lg);
+  }
+}
