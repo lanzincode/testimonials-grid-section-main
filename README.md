@@ -32,8 +32,8 @@ Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de progr
 
 ### Links
 
-- URL da solução: _(adicione aqui o link da sua solução no Frontend Mentor)_
-- URL do site ao vivo: _(adicione aqui o link do site publicado)_
+- URL da solução: _(https://www.frontendmentor.io/solutions/testimonials-grid-section-wKqJ1gs72C)_
+- URL do site ao vivo: _(https://lanzincode.github.io/testimonials-grid-section-main/)_
 
 ---
 
